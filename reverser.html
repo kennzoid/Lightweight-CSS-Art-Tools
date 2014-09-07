@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 
 <style>
-body{
-
-}
-
 #div1{	
 	background-color: transparent;
 	position:fixed;
@@ -35,6 +31,19 @@ body{
 	display: none;
 }
 
+a{
+	top: 15px;
+	left: 15px;
+	position: absolute;
+	font-family: arial;
+	font-size: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 5px;
+	background-color: #585858;
+	opacity: 0.5;
+}
+
 </style>
 
 <!DOCTYPE HTML>
@@ -44,8 +53,8 @@ body{
 <body>
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-	<a href="#" id="orig_link">see original</a>
-	<a href="#" id="edit_link">see edit</a>
+	<a href="#" id="orig_link">toggle</a>
+	<a href="#" id="edit_link">toggle</a>
 </div>
 <img id="edited" src=""/>
 
