@@ -2,9 +2,9 @@ My artist friend was looking for a simple tool that could mirror reference image
 
 ### _How to Use_
 
-> - Open the index.html file in your browser (any modern browser should work).
-> - Drag images from your computer into the white space.
-> - Dragging a new image in will replace the current one.
+- Open the index.html file in your browser (any modern browser should work).
+- Drag images from your computer into the white space.
+- Dragging a new image in will replace the current one.
 
 ## License
 MIT
